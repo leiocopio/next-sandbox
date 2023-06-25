@@ -3,7 +3,9 @@
 export default function Home() {
   return (
     <main>
-      <p>Home page</p>
+      <h1 className="text-xl">Home Page</h1>
+
+
     </main>
   );
 }

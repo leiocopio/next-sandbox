@@ -13,6 +13,7 @@ export const metadata = {
 
 
 
+
 export default function RootLayout({
   children,
 }: {
@@ -20,23 +21,23 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={mont.className}>
-        <div className="bg-sky-300" id="navigation">
+      <body className="mont bg-emerald-50">
+        <div className="bg-green-300" id="navigation">
           <nav>
-            <li className="hover:bg-sky-500 hover:text-white hover:duration-200 hover:ease-in-out">
-              Home
+            <li className="hover:bg-green-600 hover:text-white hover:ease-in-out duration-300">
+              <a href="./">Home</a>
             </li>
-            <li className="hover:bg-sky-500 hover:text-white hover:duration-200 hover:ease-in-out">
-              Resume
+
+            <li className="hover:bg-green-600 hover:text-white hover:ease-in-out duration-300">
+              <a href="./about">About Us</a>
             </li>
-            <li className="hover:bg-sky-500 hover:text-white hover:duration-200 hover:ease-in-out">
-              Portfolio
+
+            <li className="hover:bg-green-600 hover:text-white hover:ease-in-out duration-300">
+              <a href="./certifications">Certifications</a>
             </li>
-            <li className="hover:bg-sky-500 hover:text-white hover:duration-200 hover:ease-in-out">
-              About
-            </li>
-            <li className="hover:bg-sky-500 hover:text-white hover:duration-200 hover:ease-in-out">
-              Socials
+
+            <li className="hover:bg-green-600 hover:text-white hover:ease-in-out duration-300">
+              <a href="#">Contacts</a>
             </li>
           </nav>
         </div>
